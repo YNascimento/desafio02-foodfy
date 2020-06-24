@@ -1,0 +1,65 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    font-family: 'Roboto', sans-serif;
+    color: #111111;
+}
+
+/*********** NAVBAR **************/
+
+.navbar{
+    margin: 20px 0;
+}
+
+.navbar-ul{
+    list-style: none;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    color: #111111;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar-ul li{
+    display: inline;
+    margin-right: 2%;
+}
+
+.logo{
+    margin-right: 8.7%;
+}
+
+.navbar-ul li a{
+    text-decoration: none;
+    color: #111111;
+}
+
+/********** MAIN BANNER ***********/
+
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-text{
+    margin: auto;
+    text-align: left;
+}
+
+.banner-text h1{
+    font-size: 32px;
+}
+
+.banner-img{
+    margin: auto;
+}
