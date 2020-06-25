@@ -1,8 +1,5 @@
 const modalOverley = document.querySelector('.modal-overlay')
 const cards = document.querySelectorAll('.card')
-// const imgs = document.querySelectorAll('.card .card-img')
-// const titles = document.querySelectorAll('.card .card-title')
-// const authors = document.querySelectorAll('.card .card-author')
 
 for (let card of cards){
     card.addEventListener("click", function(){
@@ -22,5 +19,4 @@ for (let card of cards){
 document.querySelector('.modal-close')
     .addEventListener("click", function() {
         modalOverley.classList.remove('active')
-        // modalOverley.querySelector('iframe').src= ""
 })

@@ -110,16 +110,20 @@ body{
     column-gap: 15px;
 }
 
+
 .card-img{
     width: 100%;
     height: auto;
     border-radius: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .card h4{
+    display: block;
     font-size: 18px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .card-author{
@@ -127,6 +131,7 @@ body{
     font-weight: 400;
     color: #777777;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 /********* MODAL *********/
